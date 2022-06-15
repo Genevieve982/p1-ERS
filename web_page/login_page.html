@@ -4,22 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.1.3/css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./bootstrap-5.1.3/js/bootstrap.js"></script>
+    <link rel="stylesheet" href=".\employee_page.html">
+    <link rel="stylesheet" href=".\manager_page.html">
+    
+        
     <title>login_page</title>
 </head>
 <body>
+    <!-- Login page, 
+        do we want to insert the Revature logo on this page?
+        how do make sure employees/associates and finance managers navigate to the appropriate page?
+    -->
+
     <div>
-        <div class="light-purple-box">
-            <section>
-                <h1>Welcome</h1>
-            </section>
-            <form action="#">
-                <label for="email"></label>
-                <input type="email" id="email" name="email" value="Email">
-                <label for="pwd"></label>
-                <input type="password" id="pwd" name="pwd" value="Password">
-                <input type="submit" value="Login">
+        <section>Welcome</section>
+        <div class="dropdown-menu">
+            <form class="px-4 py-3">
+            <div class="mb-3">
+                <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="Email">
+            </div>
+            <div class="mb-3">
+                <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
             </form>
         </div>
     </div>
+
+    
 </body>
 </html>
